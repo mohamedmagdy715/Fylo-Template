@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8ebd523497.js" crossorigin="anonymous"></script>
+
+  <title>Fylo</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="col">
+        <img class="logo" src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="col">
+        <nav>
+          <span class="nav-item">Features</span>
+          <span class="nav-item">Team</span>
+          <span class="nav-item">Sign In</span>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="col col1">
+          <h2>
+            All your files in one secure location, accessible anywhere.
+          </h2>
+          <p>
+            Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+          </p>
+          <div>
+            <form class="form form-1">
+              <span class="help">
+                <input type="text" class="userEmail" id="userEmail1" placeholder="email@example.com" data-error="error1" autofocus >
+                <small class="error" id="error1">please check your email</small>
+              </span>
+              <button type="button"  class="btn" onclick="isValid(this.getAttribute('data-form'))" data-form="userEmail1">Get Started</button>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./images/illustration-1.svg">
+        </div>
+      </section>
+      <div class="bgImg">
+          
+      </div>
+      <section class="section2" style="background: hsl(240, 75%, 98%)">
+        <div class="col">
+          <h3 class="centerMobile">
+            Stay productive, wherever you are
+          </h3>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+          <a class="centerMobile">
+            See how Fylo works
+            <img src="./images/icon-arrow.svg" alt="arrow" style="width: 20px;position: relative;top: 5px;">
+          </a>
+          <div class="card">
+            <div>
+              <img src="./images/icon-quotes.svg" alt="quotes" style="width: 30px;">
+            </div>
+            <div style="margin-top: 3%;margin-bottom: 4%;">
+              Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.
+            </div>
+            <div class="avatar">
+              <img src="./images/avatar-testimonial.jpg" alt="profile picture" class="profile-thumbnail">
+              <div class="profile-name">
+                <h4>Kyle Burton</h4>
+                <h6>Founder & CEO, Huddle</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <img src="./images/illustration-2.svg">
+        </div>
+      </section>
+      <section class="section3">
+        <div class="col">
+          <h3 class="centerMobile">
+            Get early access today
+          </h3>
+          <p>
+            It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <div class="col col-form2">
+          <form class="form form-2">
+            <span class="help">
+              <input type="text" class="userEmail" id="userEmail2" placeholder="email@example.com" data-error="error2" >
+              <small class="error" id="error2">please check your email</small>
+            </span>
+            <button type="button" class="btn" onclick="isValid(this.getAttribute('data-form'))" data-form="userEmail2">Get Started For Free</button>
+          </form>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <div class="col">
+        <div class="col">
+          <img src="./images/logo-white.svg" alt="white logo">
+        </div>
+        <p class="info-link" style="font-size: medium;">
+          <img src="./images/icon-phone.svg" alt="phone" style="width: 20px;position: relative;top: 5px;margin-right: 4%;">
+          Phone: +1-543-123-4567
+        </p>
+        <p class="info-link" style="font-size: medium;">
+          <img src="./images/icon-email.svg" alt="email" style="width: 20px;position: relative;top: 5px;margin-right: 4%;">
+          example@fylo.com
+        </p>
+      </div>
+      <div class="col info-col">
+        <p class="info-link">
+          About Us
+        </p>
+        <p class="info-link">
+          Jobs
+        </p>
+        <p class="info-link">
+          Press
+        </p>
+        <p class="info-link">
+          Blog
+        </p>
+      </div>
+      <div class="col info-col">
+        <p class="info-link">
+          Contact Us
+        </p>
+        <p class="info-link">
+          Terms
+        </p>
+        <p class="info-link">
+          Privacy
+        </p>
+      </div>
+      <div class="col info-col centerMobile">
+        <i class="fab fa-facebook fa-2x info-link" style="margin: 2%;"></i>
+        <i class="fab fa-twitter fa-2x info-link" style="margin: 2%;"></i>
+        <i class="fab fa-instagram fa-2x info-link" style="margin: 2%;"></i>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
