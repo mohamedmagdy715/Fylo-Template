@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mohamedmagdy715/Fylo-Template)
-- Live Site URL: [Add live site URL here](https://mohamedmagdy715.github.io/Fylo-Template/)
+- Solution URL: [https://github.com/mohamedmagdy715/Fylo-Template]
+- Live Site URL: [https://mohamedmagdy715.github.io/Fylo-Template/]
 
 ## My process
 
