@@ -53,7 +53,7 @@ header, section, footer {
         margin-top: 10%;
     }
     nav{
-        justify-content: center;
+        justify-content: flex-start;
     }
     .nav-item{
         font-size: 13px;
