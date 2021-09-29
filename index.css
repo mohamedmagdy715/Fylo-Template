@@ -56,7 +56,7 @@ header, section, footer {
         justify-content: center;
     }
     .nav-item{
-        font-size: 15px;
+        font-size: 13px;
     }
     .bgImg{
         background: url(./images/bg-curve-mobile.svg);
